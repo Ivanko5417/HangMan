@@ -1,0 +1,410 @@
+[
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_genbackgroundwtitle.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/genbackgroundwtitle.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_c_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/c_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_e_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/e_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_q_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/q_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_gameover.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/gameover.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_i_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/i_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_w_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/w_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_strike5.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/strike5.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_x_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/x_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_u_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/u_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_t_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/t_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_b_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/b_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/layout_mainmenu.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/layout/mainmenu.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_m_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/m_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_i_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/i_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_m_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/m_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_e_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/e_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_p_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/p_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_q_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/q_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_f_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/f_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_d_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/d_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_base.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/base.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_m_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/m_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_l_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/l_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_strike6.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/strike6.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_x_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/x_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_a_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/a_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_b_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/b_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_u_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/u_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_playagainbackground.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/playagainbackground.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_n_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/n_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_p_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/p_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_r_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/r_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/color_colors.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/color/colors.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_v_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/v_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_y_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/y_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_k_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/k_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_a_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/a_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_t_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/t_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_h_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/h_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_n_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/n_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_f_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/f_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_l_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/l_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_t_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/t_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_j_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/j_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_l_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/l_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_strike4.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/strike4.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/layout_menu.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/layout/menu.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_x_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/x_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_y_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/y_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_z_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/z_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_e_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/e_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/layout-port_mainmenu.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/layout-port/mainmenu.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_s_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/s_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_z_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/z_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_strike1.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/strike1.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_chalkbackground.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/chalkbackground.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_o_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/o_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_r_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/r_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_h_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/h_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_c_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/c_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_g_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/g_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_youwin.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/youwin.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_w_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/w_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_v_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/v_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_s_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/s_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_g_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/g_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_z_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/z_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_k_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/k_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_strike2.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/strike2.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_d_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/d_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_q_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/q_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_r_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/r_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_c_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/c_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/layout_splash.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_n_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/n_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_s_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/s_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_o_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/o_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_k_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/k_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_j_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/j_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_g_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/g_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_genbackground.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/genbackground.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_f_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/f_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_d_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/d_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_h_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/h_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_p_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/p_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_strike3.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/strike3.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_j_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/j_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_o_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/o_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_u_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/u_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_w_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/w_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_a_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/a_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable_y_selector.xml.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable/y_selector.xml"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_splashimage.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/splashimage.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_v_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/v_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_i_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/i_unselected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/drawable-hdpi_b_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/b_unselected.png"
+    }
+]

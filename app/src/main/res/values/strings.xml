@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HangMan!</string>
+    <string name="app_name">HangMan</string>
+    <string name="letterclick">letterClick</string>
+    <string name="restart">Перезапуск</string>
+    <string name="category">Категория</string>
+    <string name="won">Побед</string>
+    <string name="lost">Поражений</string>
+    <string name="selectcatinst">Выберете категорию</string>
+
+</resources>
