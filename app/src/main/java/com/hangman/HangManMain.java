@@ -1,8 +1,8 @@
 package com.hangman;
 
-import android.app.*;
+import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.database.Cursor;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -11,33 +11,20 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.hangman.database.DBAdapter;
+import com.hangman.database.LocalStorage;
 import com.hangman.guess.Guesses;
 import com.hangman.word.GlobalWords;
 import com.hangman.word.WordStructure;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+
 public class HangManMain extends Activity implements GlobalWords {
     //The below array will be used to initialize the database if it is empty
-    private WordStructure[] structuredWords = {new WordStructure("Hi", "Greet"),
-                                               new WordStructure("Tornado", "Thing"),
-                                               new WordStructure("Flower", "Flora"),
-                                               new WordStructure("Pizza", "Food"),
-                                               new WordStructure("Muffin", "Food"),
-                                               new WordStructure("Aquarium", "Place"),
-                                               new WordStructure("Toad", "Animal"),
-                                               new WordStructure("Alabama", "Place"),
-                                               new WordStructure("Mermaid", "Mythical"),
-                                               new WordStructure("Android", "Mobile"),
-                                               new WordStructure("Game", "This"),
-                                               new WordStructure("Arkansas", "Place"),
-                                               new WordStructure("Test", "Test"),
-                                               new WordStructure("Word", "Test")};
+    private WordStructure[] structuredWords;
     
-    //fetchedWords will hold the results of our database query.
-    private Cursor fetchedWords;
-    
-    private Cursor fetchedScores;
-    
+    private LocalStorage localStorage;
+
     private char[] lastWord;
     
     //array "word" used to test individual letters.
@@ -47,15 +34,13 @@ public class HangManMain extends Activity implements GlobalWords {
     private TextView txtWins;
     private TextView txtLosses;
     private TextView txtCategory;
-    
+
+    private String category;
     //ImageView to hold the main game screen where the gallows is displayed.
     private ImageView hangmanImage;
     
     //class to handle processing of guesses.
     private Guesses guess;
-    
-    //class used to handle all database actions
-    private DBAdapter db;
     
     //strikeNumber will hold the resource value of the gallows images.
     static int[] strikeNumber = new int[8];
@@ -82,8 +67,10 @@ public class HangManMain extends Activity implements GlobalWords {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        db = new DBAdapter(this.getApplicationContext());
 
+        localStorage = new LocalStorage(this);
+        category = getIntent().getStringExtra("CATEGORY");
+        System.out.println(category);
         //pull text views for updating as the user plays guesses/games.
         guessedLetters = (TextView) findViewById(R.id.GuessedLetters);
         txtWins = (TextView) findViewById(R.id.Win);
@@ -99,68 +86,22 @@ public class HangManMain extends Activity implements GlobalWords {
         txtLosses.setTypeface(myTypeface);
         txtCategory.setTypeface(myTypeface);
 
-        if(fetchedWords == null || fetchedWords.isClosed()){ //only allows db query once per application run
-            db.open();
-            
-            fetchedWords = db.fetchAllWords();    
-            fetchedScores = db.fetchScores();
-            
-            //add the words array to the database if it is empty 
-            //if not, prevents adding redundant rows to the db.
-            if(fetchedWords.getCount() == 0){
-                for(WordStructure wrd : structuredWordList){
-                    db.addWord(wrd.getCategory(), wrd.getWord());
-                }
-                
-                fetchedWords = db.fetchAllWords();
-            }
-            
-            if(fetchedScores.getCount() <= 0){
-                db.addInitialScores(wins.toString(), losses.toString());
-            }
-            
-            if(fetchedScores != null && fetchedScores.getCount() > 0){
-                fetchedScores.moveToFirst();
-                rowId = fetchedScores.getInt(0);
-                wins = Integer.parseInt(fetchedScores.getString(1));
-                losses = Integer.parseInt(fetchedScores.getString(2));
-            }
+        Iterator<WordStructure> iterator = structuredWordList.iterator();
+        ArrayList<WordStructure> cutegoryWordsList = new ArrayList<WordStructure>();
 
-            //if db pull was successful, replace words array for use in game play. 
-            if(fetchedWords != null && fetchedWords.getCount() > 0){
-                //words = new String[fetchedWords.getCount()];
-                structuredWords = new WordStructure[fetchedWords.getCount()];
-                fetchedWords.moveToFirst();
-                while(!fetchedWords.isAfterLast()){
-                    //words[fetchedWords.getPosition()] = fetchedWords.getString(0);
-                    structuredWords[fetchedWords.getPosition()] = 
-                        new WordStructure(fetchedWords.getString(0), fetchedWords.getString(1));
-                    fetchedWords.move(1);
-                }                
-                
-//                Thread thd = new Thread(){
-//                  public void run(){
-//                      structuredWords = new WordStructure[fetchedWords.getCount()];
-//                      fetchedWords.moveToFirst();
-//                      DbToStructure dts = new DbToStructure();
-//                      int i = dts.fillStructure(fetchedWords, fetchedWords.getCount());
-//                      notify();
-//                  }
-//                };
-//                
-//                thd.start();
-//                if(thd.isAlive()){
-//                    try {
-//                        this.wait();
-//                    } catch (InterruptedException e) {
-//                        // TODO Auto-generated catch block
-//                        e.printStackTrace();
-//                    }
-//                }
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next().getWord());
+            WordStructure currentWord = iterator.next();
+            if (currentWord.getCategory().toLowerCase().equals(category.toLowerCase())) {
+                cutegoryWordsList.add(currentWord);
             }
-
-            db.close();
         }
+        System.out.println(cutegoryWordsList.size());
+
+        structuredWords = cutegoryWordsList.toArray(new WordStructure[0]);
+
+        wins = Integer.parseInt(localStorage.getItem("wins"));
+        losses = Integer.parseInt(localStorage.getItem("loses"));
 
         //set category and stats
         txtWins.setText(wins.toString());
@@ -172,7 +113,7 @@ public class HangManMain extends Activity implements GlobalWords {
         hangmanImage.setImageResource(strikeNumber[strikes]);
         
         guess = new Guesses();
-        
+
         //set the word to be guessed.
         if(lastWord == null || !getLastWord().toString().equals(getWord().toString())){
             setWord(guess.assignWord(structuredWords, guessedLetters, txtCategory));
@@ -196,6 +137,7 @@ public class HangManMain extends Activity implements GlobalWords {
 
         if (win) {
             wins += 1;
+            localStorage.setItem("wins", ""+losses);
             txtWins.setText(wins.toString());
             hangmanImage.setImageResource(strikeNumber[7]);
             userContinue("Вы победили! Поздравляю!  ");
@@ -203,9 +145,9 @@ public class HangManMain extends Activity implements GlobalWords {
 
         if (strikes == 6) {
             char[] word = this.getWord();
-            String losingText = "В слове было всего " + Integer.toString(word.length/2) +
-            " букв!!";
+            String losingText = "Вы програли! Ваше слово:\n " + new String(this.word).replaceAll(" ", "").toUpperCase();
             losses += 1;
+            localStorage.setItem("loses", ""+losses);
             txtLosses.setText(losses.toString());
             userContinue(losingText);
         }
@@ -245,17 +187,8 @@ public class HangManMain extends Activity implements GlobalWords {
     
     //handle the popup used to ask if the user wants to play again or quit.
     public void userContinue(String message) {
-        if(!fetchedScores.isClosed())
-            fetchedScores.close();
-        if(!fetchedWords.isClosed())
-            fetchedWords.close();
-        
-        db.open();        
-        db.updateScore(rowId, wins.toString(), losses.toString());        
-        db.close();
-        
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage(message + "\n Ещё раз?")
+        builder.setMessage(message + "\nЕщё раз?")
         .setCancelable(false)
         .setPositiveButton("Да",
                 new DialogInterface.OnClickListener() {
@@ -268,9 +201,6 @@ public class HangManMain extends Activity implements GlobalWords {
         .setNegativeButton("Нет", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                if(!fetchedWords.isClosed())
-                    fetchedWords.close();
-
                 HangManMain.this.finish();
             }
         });

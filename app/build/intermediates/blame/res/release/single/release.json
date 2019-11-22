@@ -108,12 +108,12 @@
         "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/l_unselected.png"
     },
     {
-        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/release/drawable-hdpi_y_unselected.png.flat",
-        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/y_unselected.png"
-    },
-    {
         "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/release/drawable-hdpi_g_selected.png.flat",
         "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/g_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/release/drawable-hdpi_y_unselected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/y_unselected.png"
     },
     {
         "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/release/drawable-hdpi_j_selected.png.flat",
@@ -132,12 +132,12 @@
         "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/c_selected.png"
     },
     {
-        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/release/drawable-hdpi_k_selected.png.flat",
-        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/k_selected.png"
-    },
-    {
         "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/release/drawable-hdpi_f_selected.png.flat",
         "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/f_selected.png"
+    },
+    {
+        "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/release/drawable-hdpi_k_selected.png.flat",
+        "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/drawable-hdpi/k_selected.png"
     },
     {
         "merged": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/release/drawable-hdpi_i_selected.png.flat",

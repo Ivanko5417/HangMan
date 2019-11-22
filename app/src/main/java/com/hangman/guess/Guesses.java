@@ -1,11 +1,11 @@
 package com.hangman.guess;
 
-import java.util.Random;
+import android.view.View;
+import android.widget.TextView;
 
 import com.hangman.word.WordStructure;
 
-import android.view.View;
-import android.widget.TextView;
+import java.util.Random;
 
 public class Guesses {
     private View view;
@@ -98,6 +98,8 @@ public class Guesses {
         
         return strikes;
     }
+
+//    public String getWord() { return  }
     
     public View getView(){
         return this.view;
