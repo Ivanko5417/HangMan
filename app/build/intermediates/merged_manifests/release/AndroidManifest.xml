@@ -19,6 +19,16 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity
+            android:name="com.hangman.Menu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.hangman.Difficulty"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
             android:name="com.hangman.SplashScreen"
             android:label="@string/app_name"
             android:screenOrientation="portrait"

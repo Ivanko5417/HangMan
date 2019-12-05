@@ -1,4 +1,4 @@
-#Sun Nov 17 22:59:12 MSK 2019
+#Thu Dec 05 21:35:56 MSK 2019
 base.0=/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

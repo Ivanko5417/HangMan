@@ -19,7 +19,7 @@ public class Menu extends Activity {
     public void chooseCategory(View view) {
         Button btn = (Button) findViewById(view.getId());
         Intent intent = new Intent();
-        intent.setClass(this, HangManMain.class);
+        intent.setClass(this, Difficulty.class);
         intent.putExtra("CATEGORY", btn.getText());
         startActivity(intent);
     }

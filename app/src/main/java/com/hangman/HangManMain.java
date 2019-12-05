@@ -22,6 +22,8 @@ import java.util.Iterator;
 public class HangManMain extends Activity implements GlobalWords {
     //The below array will be used to initialize the database if it is empty
     private WordStructure[] structuredWords;
+
+    public static boolean resetScore = false;
     
     private LocalStorage localStorage;
 
@@ -36,6 +38,8 @@ public class HangManMain extends Activity implements GlobalWords {
     private TextView txtCategory;
 
     private String category;
+    private int minDifficulty;
+    private int maxDifficulty;
     //ImageView to hold the main game screen where the gallows is displayed.
     private ImageView hangmanImage;
     
@@ -69,8 +73,14 @@ public class HangManMain extends Activity implements GlobalWords {
         setContentView(R.layout.main);
 
         localStorage = new LocalStorage(this);
+        if (resetScore) {
+            localStorage.setItem("wins", "0");
+            localStorage.setItem("loses", "0");
+            resetScore = false;
+        }
         category = getIntent().getStringExtra("CATEGORY");
-        System.out.println(category);
+        minDifficulty = Integer.parseInt(getIntent().getStringExtra("MIN_DIFFICULTY"));
+        maxDifficulty = Integer.parseInt(getIntent().getStringExtra("MAX_DIFFICULTY"));
         //pull text views for updating as the user plays guesses/games.
         guessedLetters = (TextView) findViewById(R.id.GuessedLetters);
         txtWins = (TextView) findViewById(R.id.Win);
@@ -90,13 +100,11 @@ public class HangManMain extends Activity implements GlobalWords {
         ArrayList<WordStructure> cutegoryWordsList = new ArrayList<WordStructure>();
 
         while (iterator.hasNext()) {
-            System.out.println(iterator.next().getWord());
             WordStructure currentWord = iterator.next();
             if (currentWord.getCategory().toLowerCase().equals(category.toLowerCase())) {
                 cutegoryWordsList.add(currentWord);
             }
         }
-        System.out.println(cutegoryWordsList.size());
 
         structuredWords = cutegoryWordsList.toArray(new WordStructure[0]);
 
@@ -116,11 +124,11 @@ public class HangManMain extends Activity implements GlobalWords {
 
         //set the word to be guessed.
         if(lastWord == null || !getLastWord().toString().equals(getWord().toString())){
-            setWord(guess.assignWord(structuredWords, guessedLetters, txtCategory));
+            setWord(guess.assignWord(structuredWords, guessedLetters, txtCategory, minDifficulty, maxDifficulty));
             setLastWord(getWord());
         }else{
             while(getLastWord().toString().equals(getWord().toString())){
-                setWord(guess.assignWord(structuredWords, guessedLetters, txtCategory));
+                setWord(guess.assignWord(structuredWords, guessedLetters, txtCategory, minDifficulty, maxDifficulty));
             }
             setLastWord(getWord());
         }        
@@ -137,7 +145,7 @@ public class HangManMain extends Activity implements GlobalWords {
 
         if (win) {
             wins += 1;
-            localStorage.setItem("wins", ""+losses);
+            localStorage.setItem("wins", ""+wins);
             txtWins.setText(wins.toString());
             hangmanImage.setImageResource(strikeNumber[7]);
             userContinue("Вы победили! Поздравляю!  ");

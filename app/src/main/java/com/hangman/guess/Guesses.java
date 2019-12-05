@@ -5,6 +5,7 @@ import android.widget.TextView;
 
 import com.hangman.word.WordStructure;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Guesses {
@@ -16,7 +17,7 @@ public class Guesses {
     private TextView guessedLetters;
     private TextView category;
     private Integer strikes = 0;
-    
+
     public Guesses(){
         
     }
@@ -46,7 +47,14 @@ public class Guesses {
         return localWord;
     }
 
-    public char[] assignWord(WordStructure[] words, View gl, View cat){
+    public char[] assignWord(WordStructure[] allWords, View gl, View cat, int minDifficulty, int maxDifficulty){
+        ArrayList<WordStructure> words = new ArrayList<WordStructure>();
+        for (WordStructure wordObj : allWords) {
+            String word = wordObj.getWord();
+            if (word.length() >= minDifficulty && word.length() <= maxDifficulty) {
+                words.add(wordObj);
+            }
+        }
         this.setView(gl);
         guessedLetters = (TextView)gl;
         this.setCatView(cat);
@@ -54,9 +62,9 @@ public class Guesses {
         
         char[] localWord;
         Random randomGenerator = new Random();
-        int randomInt = randomGenerator.nextInt(words.length);
-        selectedWord = words[randomInt].getWord();
-        selectedCategory = words[randomInt].getCategory();
+        int randomInt = randomGenerator.nextInt(words.size());
+        selectedWord = words.get(randomInt).getWord();
+        selectedCategory = words.get(randomInt).getCategory();
         String spacedWord = "";
         
         localWord = new char[selectedWord.length()];
