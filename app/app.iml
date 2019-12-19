@@ -89,7 +89,5 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 10 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: maps-android-10" level="project" />
-    <orderEntry type="library" name="Gradle: usb-android-10" level="project" />
   </component>
 </module>

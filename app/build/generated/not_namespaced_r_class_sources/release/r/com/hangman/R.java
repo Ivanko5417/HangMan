@@ -110,12 +110,16 @@ public final class R {
     public static final int button8=0x7f040030;
     public static final int button9=0x7f040031;
     public static final int textView=0x7f040032;
+    public static final int textView2=0x7f040033;
   }
   public static final class layout {
-    public static final int difficulty=0x7f050000;
-    public static final int main=0x7f050001;
-    public static final int menu=0x7f050002;
-    public static final int splash=0x7f050003;
+    public static final int about=0x7f050000;
+    public static final int category=0x7f050001;
+    public static final int difficulty=0x7f050002;
+    public static final int help=0x7f050003;
+    public static final int main=0x7f050004;
+    public static final int menu=0x7f050005;
+    public static final int splash=0x7f050006;
   }
   public static final class string {
     public static final int app_name=0x7f060000;

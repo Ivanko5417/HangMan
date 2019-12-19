@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ivanko/Workspace/forMarina/HangMan1/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "/home/ivanko/Workspace/Study/forMarina/HangMan1/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "4,7,3,5,9,6,10,8",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "112,256,56,157,341,209,384,303",
-                        "endColumns": "44,46,55,51,42,46,60,37",
-                        "endOffsets": "152,298,107,204,379,251,440,336"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,100,147,203,255,298,345,406",
-                        "endColumns": "44,46,55,51,42,46,60,37",
-                        "endOffsets": "95,142,198,250,293,340,401,439"
-                    }
-                },
-                {
-                    "source": "/home/ivanko/Workspace/forMarina/HangMan1/app/src/main/res/values/attributes.xml",
+                    "source": "/home/ivanko/Workspace/Study/forMarina/HangMan1/app/src/main/res/values/attributes.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -37,6 +20,23 @@
                         "endLines": "16",
                         "endColumns": "24",
                         "endOffsets": "794"
+                    }
+                },
+                {
+                    "source": "/home/ivanko/Workspace/Study/forMarina/HangMan1/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "4,7,3,5,9,6,10,8",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "112,256,56,157,341,209,384,303",
+                        "endColumns": "44,46,55,51,42,46,60,37",
+                        "endOffsets": "152,298,107,204,379,251,440,336"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,100,147,203,255,298,345,406",
+                        "endColumns": "44,46,55,51,42,46,60,37",
+                        "endOffsets": "95,142,198,250,293,340,401,439"
                     }
                 }
             ]

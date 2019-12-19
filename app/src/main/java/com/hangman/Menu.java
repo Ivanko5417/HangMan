@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 public class Menu extends Activity {
 
@@ -16,11 +15,21 @@ public class Menu extends Activity {
     }
 
 
-    public void chooseCategory(View view) {
-        Button btn = (Button) findViewById(view.getId());
+    public void startGame(View view) {
         Intent intent = new Intent();
-        intent.setClass(this, Difficulty.class);
-        intent.putExtra("CATEGORY", btn.getText());
+        intent.setClass(this, Category.class);
+        startActivity(intent);
+    }
+
+    public void help(View view) {
+        Intent intent = new Intent();
+        intent.setClass(this, Help.class);
+        startActivity(intent);
+    }
+
+    public void about(View view) {
+        Intent intent = new Intent();
+        intent.setClass(this, About.class);
         startActivity(intent);
     }
 
